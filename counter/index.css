@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 8rem;
+  margin: 0;
+}
+button {
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#increase {
+  background-color: rgb(71, 218, 42);
+}
+
+#increase:hover {
+  background-color: rgb(61, 182, 37);
+}
+
+#reset {
+  background-color: rgb(245, 248, 85);
+}
+
+#reset:hover {
+  background-color: rgb(163, 165, 55);
+}
+
+#decrease {
+  background-color: rgb(243, 46, 46);
+}
+
+#decrease:hover {
+  background-color: rgb(168, 33, 33);
+}
