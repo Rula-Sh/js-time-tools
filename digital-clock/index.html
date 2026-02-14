@@ -7,8 +7,16 @@
     <title>Digital Clock</title>
   </head>
   <body>
-    <h1 id="clock-display"></h1>
-
+    <div class="clock-container">
+      <h1 id="clock-display"></h1>
+      <label class="switch-container">
+        <span class="label-text">12-hour format</span>
+        <div class="switch">
+          <input type="checkbox" id="hour-format-switch" />
+          <span class="slider round"></span>
+        </div>
+      </label>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
