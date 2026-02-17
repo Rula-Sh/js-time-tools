@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Project Styles -->
+    <link rel="stylesheet" href="projects/counter/counter.css" />
+    <link rel="stylesheet" href="projects/stop-watch/stop-watch.css" />
+    <link rel="stylesheet" href="projects/digital-clock/digital-clock.css" />
+
+    <!-- Font Awsome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Time Tools</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <button id="counter-nav-item" class="nav-item">Counter</button>
+      <button id="stop-watch-nav-item" class="nav-item">Stop Watch</button>
+      <button id="digital-clock-nav-item" class="nav-item">
+        Digital Clock
+      </button>
+    </div>
+
+    <!----------------------------- Counter ----------------------------->
+
+    <div id="counter-container" class="project-container">
+      <h1 id="counter">0</h1>
+      <div class="buttons">
+        <button id="decrease">Decrease</button>
+        <button id="reset">Reset</button>
+        <button id="increase">Increase</button>
+      </div>
+    </div>
+    <!----------------------------- Stop Watch ----------------------------->
+
+    <div id="stop-watch-container" class="project-container">
+      <div class="container">
+        <div class="timer">00:00:00</div>
+        <div class="buttons">
+          <button id="start-stop-btn">
+            <i class="fa-solid fa-play" id="play-ic"></i>
+          </button>
+          <button id="reset-btn">
+            <i class="fa-solid fa-arrow-rotate-left" id="reset-ic"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------- Digital Clock ----------------------------->
+
+    <div id="digital-clock-container" class="project-container">
+      <div class="clock-container">
+        <h1 id="clock-display"></h1>
+        <label class="switch-container">
+          <span class="label-text">12-hour format</span>
+          <div class="switch">
+            <input type="checkbox" id="hour-format-switch" />
+            <span class="slider round"></span>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="projects/counter/counter.js"></script>
+    <script src="projects/stop-watch/stop-watch.js"></script>
+    <script src="projects/digital-clock/digital-clock.js"></script>
+  </body>
+</html>

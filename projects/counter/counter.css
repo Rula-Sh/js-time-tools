@@ -1,0 +1,43 @@
+#counter-container {
+  background: url(images/counter-background.png) no-repeat center center / cover;
+  color: white;
+}
+
+#counter {
+  font-size: 8rem;
+  margin: 0;
+}
+
+#increase,
+#reset,
+#decrease {
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#increase {
+  background-color: rgb(150, 212, 137);
+}
+
+#increase:hover {
+  background-color: rgb(130, 185, 118);
+}
+
+#reset {
+  background-color: rgb(248, 250, 157);
+}
+
+#reset:hover {
+  background-color: rgb(162, 163, 99);
+}
+
+#decrease {
+  background-color: rgb(252, 159, 159);
+}
+
+#decrease:hover {
+  background-color: rgb(165, 101, 101);
+}

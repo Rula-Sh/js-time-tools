@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.nav-bar button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-bar button.active {
+  background: #63636394;
+  font-weight: bold;
+  border-radius: 12px;
+  font-size: 22px;
+}
+
+.project-container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

@@ -56,13 +56,13 @@ startStopBtn.addEventListener("click", function () {
     stopWatch = window.setInterval(stopWatchFunction, 1000);
     document.getElementById(
       "start-stop-btn"
-    ).innerHTML = `<i class="fa-solid fa-pause" id="pause"></i>`;
+    ).innerHTML = `<i class="fa-solid fa-pause" id="pause-ic"></i>`;
     stopWatchStatus = "running";
   } else {
     window.clearInterval(stopWatch);
     document.getElementById(
       "start-stop-btn"
-    ).innerHTML = `<i class="fa-solid fa-play" id="play"></i>`;
+    ).innerHTML = `<i class="fa-solid fa-play" id="play-ic"></i>`;
     stopWatchStatus = "paused";
   }
 });
@@ -71,7 +71,7 @@ resetBtn.addEventListener("click", function () {
   window.clearInterval(stopWatch);
   document.getElementById(
     "start-stop-btn"
-  ).innerHTML = `<i class="fa-solid fa-play" id="play"></i>`;
+  ).innerHTML = `<i class="fa-solid fa-play" id="play-ic"></i>`;
   stopWatchStatus = "paused";
 
   seconds = 0;
