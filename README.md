@@ -1,67 +1,55 @@
-# Counter ⌚
+## Time Tools 🕓
 
-A small JavaScript project that implements a simple counter. The user can increase, decrease, and reset the counter using basic DOM manipulation.
+A collection of three interactive time-based JavaScript applications: a Counter, Stopwatch, and Digital Clock. Each tool demonstrates fundamental JavaScript concepts while providing useful time-tracking functionality.
 
-## Key Concepts Used 🧩
+## Overview 🎯
 
-- `document.getElementById()`
-- `addEventListener()`
-- `textContent`
+Time Tools is a unified project that combines three separate time-management applications into one cohesive interface. Each tool serves a different purpose and showcases various JavaScript concepts:
 
-## Programming Languages Used 🛠️
+- **Counter** 🔢: Simple increment/decrement counter
+- **Stopwatch** ⏱️: Track elapsed time with start/pause/reset controls
+- **Digital Clock** ⌚: Real-time clock with 12/24-hour format toggle
 
-- HTML
-- CSS
-- JavaScript
+## Projects Included 🧰
 
-## Screenshot 📸
+### 1. Counter 🔢
 
-![Screenshot of the Counter interface](img/js-counter-screenshot.png)
+A basic counter that allows users to increase, decrease, and reset a numerical value.
 
+- **Key Concepts:** 🧩
+  - DOM selection `document.getElementById()`
+  - Event handling `addEventListener()`
+  - Reading and updating values `textContent`
 
-# Stop Watch ⌚
+### 2. Stopwatch ⏱️
 
-A small JavaScript project that implements a simple stopwatch. The user can start, pause, and reset the timer using basic DOM manipulation.
+A functional stopwatch that tracks time with start, pause, and reset capabilities.
 
-## Key Concepts Used 🧩
+- **Key Concepts:** 🧩
+  - DOM selection `document.querySelector()` `document.getElementById()`
+  - Reading and updating values `innerHTML` `innerText`
+  - Event handling `addEventListener()`
+  - Repeat code `window.setInterval()`
+  - Stopping code execution `window.clearInterval()`
 
-- `document.querySelector()`
-- `document.getElementById()`
-- `innerHTML & innerText`
-- `addEventListener()`
-- `window.setInterval()`
-- `window.clearInterval()`
+### 3. Digital Clock ⌚
 
-## Programming Languages Used 🛠️
+A real-time clock that displays the current system time with format toggle functionality.
 
-- HTML
-- CSS
-- JavaScript
-
-## Screenshot 📸
-
-![Screenshot of the Stop Watch interface](img/js-stop-watch-screenshot.png)
-
-
-# Digital Clock ⏲️
-
-A simple digital clock that displays the current time and updates every second in real time. The project includes a toggle that allows switching between 12-hour and 24-hour time formats. It demonstrates core JavaScript concepts such as DOM manipulation, event handling, and time-based updates.
+- **Key Concepts:** 🧩
+  - DOM selection `document.getElementById()`
+  - Repeat code `setInterval()`
+  - Event handling `addEventListener()`
+  - Reading and updating values `checked` `textContent`
+  - Conditional (Ternary) Operator `condition? value1: value2`
 
 ## Features ✨
 
-- Displays the current system time
-- Updates automatically every second
-- Toggle between 12-hour and 24-hour formats
-- Real-time DOM updates using JavaScript
-- Clean and minimal user interface
-
-## Key Concepts Used 🧩
-
-- DOM selection `document.getElementById()`
-- Repeat code `setInterval()`
-- Event handling `addEventListener()`
-- Reading and updating values`.checked` `.textContent`
-- Conditional (Ternary) Operator `condition? value1: value2`
+- **Clean, intuitive interface**: Each tool has its own dedicated section
+- **Real-time updates**: Live time display and stopwatch functionality
+- **Format toggle**: Switch between 12-hour and 24-hour clock formats
+- **Responsive design**: Works seamlessly across different screen sizes
+- **Modular code structure**: Each tool's functionality is independently implemented
 
 ## Programming Languages Used 🛠️
 
@@ -69,6 +57,16 @@ A simple digital clock that displays the current time and updates every second i
 - CSS
 - JavaScript
 
-## Screenshot 📸
+## Screenshots 📸
 
-![Screenshot of the Stop Watch interface](img/js-digital-clock-screenshot.png)
+### Counter Interface
+
+![Screenshot of the Counter interface](projects/counter/images/counter-screenshot.png)
+
+### Stopwatch Interface
+
+![Screenshot of the Stop Watch interface](projects/digital-clock/images/digital-clock-screenshot.png)
+
+### Digital Clock Interface
+
+![Screenshot of the Digital Clock interface](projects/stop-watch/images/stop-watch-screenshot.png)
